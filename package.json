@@ -1,0 +1,77 @@
+{
+  "name": "@acildeprem/service-common",
+  "private": false,
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Service Common for acildeprem.com",
+  "author": "Mehmet - productdevbook <hi@productdevbook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/acildeprem/#readme",
+  "packageManager": "pnpm@7.26.3",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acildeprem/storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acildeprem/storage/issues"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=v18.10.0",
+    "pnpm": ">=7.26.3"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf dist && rimraf node_modules",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx .",
+    "lint:fix": "eslint --ext .ts,.tsx,.js,.jsx . --fix",
+    "release": "bumpp --commit --push --tag && pnpm publish"
+  },
+  "peerDependencies": {
+    "@sentry/node": "^7.36.0",
+    "@sentry/tracing": "^7.36.0",
+    "@sentry/utils": "^7.36.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@swc/core": "^1.3.32",
+    "@whatwg-node/fetch": "^0.6.7",
+    "fastify": "^4.12.0",
+    "fastify-plugin": "^4.5.0",
+    "prom-client": "^14.1.1",
+    "zod": "^3.20.2"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.35.1",
+    "@faker-js/faker": "^7.6.0",
+    "@sentry/node": "^7.36.0",
+    "@sentry/tracing": "^7.36.0",
+    "@sentry/types": "^7.36.0",
+    "@sentry/utils": "^7.36.0",
+    "bumpp": "^8.2.1",
+    "consola": "^2.15.3",
+    "eslint": "^8.33.0",
+    "tslib": "^2.5.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1",
+    "vitest": "^0.28.4"
+  }
+}
