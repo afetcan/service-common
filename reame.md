@@ -1,7 +1,10 @@
 # service-common
 
 `@acildeprem/service-common` paketinin amacı Fastify, Sentry gibi yeni server oluşturacağı zaman ortak olarak kullanılacak tüm kodları burada depolamaktır. Bu yapıyı projeye entegre ederken aşağıdaki adımları kullanabilirsiniz.
-
+## Kurulum
+```bash
+pnpm install
+```
 ## Gereksinimler
 
 Node.js 18.0.0 veya üstü Pnpm 7.26.3
@@ -21,4 +24,12 @@ pnpm install @acildeprem/service-common
 ### Kullanım
 ```ts
 import { ... } from '@acildeprem/service-common' 
+```
+### Dev
+```bash
+pnpm dev
+```
+### Build
+```bash
+pnpm build
 ```
