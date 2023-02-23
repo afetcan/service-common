@@ -1,19 +1,19 @@
 {
-  "name": "@acildeprem/service-common",
+  "name": "@afetcan/service-common",
   "private": false,
   "type": "module",
   "version": "0.0.2",
-  "description": "Service Common for acildeprem.com",
+  "description": "Service Common for afetcan.com",
   "author": "Mehmet - productdevbook <hi@productdevbook.com>",
   "license": "MIT",
-  "homepage": "https://github.com/acildeprem/#readme",
+  "homepage": "https://github.com/afetcan/#readme",
   "packageManager": "pnpm@7.26.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acildeprem/storage.git"
+    "url": "git+https://github.com/afetcan/storage.git"
   },
   "bugs": {
-    "url": "https://github.com/acildeprem/storage/issues"
+    "url": "https://github.com/afetcan/storage/issues"
   },
   "exports": {
     ".": {

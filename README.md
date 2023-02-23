@@ -1,35 +1,35 @@
 # Acil Deprem Servis Ortak Kütüphanesi
 
 <p>
-      <a href="https://www.npmjs.com/package/@acildeprem/service-common"><img src="https://img.shields.io/npm/v/@acildeprem/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
-      <a href="https://www.npmjs.com/package/@acildeprem/service-common"><img src="https://img.shields.io/npm/dm/@acildeprem/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
-      <a href="./LICENSE"><img src="https://img.shields.io/github/license/acildeprem/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="License"></a>
-      <a href="https://github.com/acildeprem/service-common">
-      <img src="https://img.shields.io/github/stars/acildeprem/service-common.svg?style=social&label=Star&maxAge=2592000" alt="Github Stars"> </a>
+      <a href="https://www.npmjs.com/package/@afetcan/service-common"><img src="https://img.shields.io/npm/v/@afetcan/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
+      <a href="https://www.npmjs.com/package/@afetcan/service-common"><img src="https://img.shields.io/npm/dm/@afetcan/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Downloads"></a>
+      <a href="./LICENSE"><img src="https://img.shields.io/github/license/afetcan/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="License"></a>
+      <a href="https://github.com/afetcan/service-common">
+      <img src="https://img.shields.io/github/stars/afetcan/service-common.svg?style=social&label=Star&maxAge=2592000" alt="Github Stars"> </a>
 </p>
 
 
-`@acildeprem/service-common` paketinin amacı Fastify, Sentry gibi yeni server oluşturacağı zaman ortak olarak kullanılacak tüm kodları burada depolamaktır. Bu yapıyı projeye entegre ederken aşağıdaki adımları kullanabilirsiniz.
+The purpose of the `@afetcan/service-common` package is to store all common codes here when Fastify creates a new server like Sentry. You can use the following steps when integrating this structure into the project.
 
-## NPM Paketi
+## NPM
 
 
-### Kurulum
+### Setup
 ```bash
-pnpm install @acildeprem/service-common
+pnpm install @afetcan/service-common
 ```
 
-###  Kullanım
+### Usage
 ```ts
-import { ... } from '@acildeprem/service-common' 
+import { ... } from '@afetcan/service-common' 
 ```
 
-## Gereksinimler
+## Requirements
 
 - [Node.js](https://nodejs.org/en/) 18.0.0+
 - [pnpm](https://pnpm.io/) 7.26.3+
 
-## Kullandığımız teknolojiler
+## Dependencies
 - [Fastify 8.2.0](https://www.fastify.io/docs/latest/)
 - [SWC 1.3.32](https://swc.rs/docs/getting-started)
 - [WHATWG 0.6.7](https://github.com/whatwg)
@@ -37,9 +37,9 @@ import { ... } from '@acildeprem/service-common'
 - [Faker 7.6.0](https://fakerjs.dev/guide/)
 - [Sentry 7.36.0](https://docs.sentry.io/)
 
-## Local Geliştirme - Development
+## Local Development
 
-### Kurulum
+### Setup
 ```bash
 pnpm install
 ```
@@ -55,8 +55,8 @@ pnpm build
 ```
 
 
-# Linkler
+# Links
 
-- [Web Sitesi](https://acildeprem.com)
-- [Discord](https://discord.acildeprem.com)
-- [Twitter](https://twitter.com/acildepremcom)
+- [Web Sitesi](https://afetcan.com)
+- [Discord](https://discord.afetcan.com)
+- [Twitter](https://twitter.com/afetcanapp)
