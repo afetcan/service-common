@@ -25,7 +25,7 @@
       "vite/client"
     ],
     "paths": {
-      "@acildeprem/storage": [
+      "@afetcan/storage": [
         "./src/index.ts"
       ],
     }
