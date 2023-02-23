@@ -1,4 +1,4 @@
-# Acil Deprem Servis Ortak Kütüphanesi
+# afetcan Service Common Library
 
 <p>
       <a href="https://www.npmjs.com/package/@afetcan/service-common"><img src="https://img.shields.io/npm/v/@afetcan/service-common.svg?style=flat&colorA=002438&colorB=28CF8D" alt="Version"></a>
